@@ -1,0 +1,10 @@
+snippet 'am-list:border' do |cmd| 
+    cmd.trigger = 'am-list:border' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <ul class="am-list am-list-border">
+        <li><a href="#">${1:列表内容}</a></li>
+      </ul>
+      ' 
+end 
+

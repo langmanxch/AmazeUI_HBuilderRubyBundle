@@ -1,0 +1,10 @@
+snippet 'am-progress:striped' do |cmd| 
+    cmd.trigger = 'am-progress:striped' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-progress am-progress-bar-striped">
+        <div class="am-progress-bar" style="${1:width: 15%}"></div>
+      </div>
+      ' 
+end 
+

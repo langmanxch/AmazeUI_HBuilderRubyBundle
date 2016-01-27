@@ -1,0 +1,11 @@
+snippet 'am-cdn' do |cmd| 
+    cmd.trigger = 'am-cdn' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <!-- Latest compiled and minified CSS and JS -->
+      <link rel="stylesheet" href="//cdn.amazeui.org/amazeui/2.2.1/css/amazeui.min.css">
+      <script src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+      <script src="//cdn.amazeui.org/amazeui/2.2.1/js/amazeui.min.js"></script>
+      ' 
+end 
+

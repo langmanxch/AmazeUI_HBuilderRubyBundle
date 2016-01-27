@@ -1,0 +1,8 @@
+snippet 'am-img' do |cmd| 
+    cmd.trigger = 'am-img' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <img alt="" src="${1:图片地址}" width="" height="" />
+      ' 
+end 
+

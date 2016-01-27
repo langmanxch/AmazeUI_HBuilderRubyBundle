@@ -1,0 +1,8 @@
+snippet 'am-icon:sm' do |cmd| 
+    cmd.trigger = 'am-icon:sm' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <span class="am-icon-${1:home} am-icon-sm">${2:字体图标}</span>
+      ' 
+end 
+

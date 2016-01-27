@@ -1,0 +1,8 @@
+snippet 'am-btn:danger' do |cmd| 
+    cmd.trigger = 'am-btn:danger' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button type="button" class="am-btn am-btn-default am-btn-danger">${1:按钮}</button>
+      ' 
+end 
+

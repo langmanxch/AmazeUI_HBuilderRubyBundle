@@ -1,0 +1,8 @@
+snippet 'am-btn:secondary' do |cmd| 
+    cmd.trigger = 'am-btn:secondary' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button type="button" class="am-btn am-btn-default am-btn-secondary">${1:按钮}</button>
+      ' 
+end 
+

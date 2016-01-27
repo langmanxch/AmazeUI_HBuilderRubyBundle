@@ -1,0 +1,11 @@
+snippet 'am-selected' do |cmd| 
+    cmd.trigger = 'am-selected' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <select data-am-selected>
+        <option value="${1:a1}">${2:title}</option>
+        <option value="${3:a2}" selected>${4:selected}</option>
+      </select>
+      ' 
+end 
+

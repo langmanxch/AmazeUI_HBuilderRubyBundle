@@ -1,0 +1,8 @@
+snippet 'am-img:thumbnail' do |cmd| 
+    cmd.trigger = 'am-img:thumbnail' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <img class="am-img-thumbnail" alt="" src="${1:图片地址}" width="" height="" />
+      ' 
+end 
+

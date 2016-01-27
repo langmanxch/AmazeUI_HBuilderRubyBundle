@@ -1,0 +1,8 @@
+snippet 'am-close' do |cmd| 
+    cmd.trigger = 'am-close' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button type="button" class="am-close">&times;</button>
+      ' 
+end 
+

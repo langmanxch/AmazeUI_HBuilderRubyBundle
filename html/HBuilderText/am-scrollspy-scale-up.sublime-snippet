@@ -1,0 +1,10 @@
+snippet 'am-scrollspy:scale-up' do |cmd| 
+    cmd.trigger = 'am-scrollspy:scale-up' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div data-am-scrollspy="\'{animation: \'scale-up\'${1:, delay: 3000, repeat: false}\'}">
+        ${2:内容}
+      </div>
+      ' 
+end 
+

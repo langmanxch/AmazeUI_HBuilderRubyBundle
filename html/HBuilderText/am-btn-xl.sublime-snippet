@@ -1,0 +1,8 @@
+snippet 'am-btn:xl' do |cmd| 
+    cmd.trigger = 'am-btn:xl' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button type="button" class="am-btn am-btn-default am-btn-xl">${1:按钮}</button>
+      ' 
+end 
+

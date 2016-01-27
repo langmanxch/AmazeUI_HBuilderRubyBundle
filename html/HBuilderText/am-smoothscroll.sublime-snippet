@@ -1,0 +1,8 @@
+snippet 'am-smoothscroll' do |cmd| 
+    cmd.trigger = 'am-smoothscroll' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button data-am-smooth-scroll type="button">${1:滚动到顶部}</button>
+      ' 
+end 
+

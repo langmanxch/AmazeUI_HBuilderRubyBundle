@@ -1,0 +1,9 @@
+snippet 'am-modal:popup' do |cmd| 
+    cmd.trigger = 'am-modal:popup' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <!-- 触发 button -->
+      <button class="am-btn am-btn-secondary" data-am-modal="{target: \'#${1:my-id}\'}">popup</button>
+      ' 
+end 
+

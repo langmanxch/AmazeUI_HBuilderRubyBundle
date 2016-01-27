@@ -1,0 +1,12 @@
+snippet 'am-input-group:btn' do |cmd| 
+    cmd.trigger = 'am-input-group:btn' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-input-group am-input-group-btn">
+        <span class="am-input-group-btn">
+          <button class="am-btn am-btn-default" type="button">${1:<span class="am-icon-search"></span>}</button>
+        </span>
+      </div>
+      ' 
+end 
+

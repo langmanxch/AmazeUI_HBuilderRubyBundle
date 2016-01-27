@@ -1,0 +1,10 @@
+snippet 'am-list:striped' do |cmd| 
+    cmd.trigger = 'am-list:striped' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <ul class="am-list am-list-striped">
+        <li><a href="#">${1:列表内容}</a></li>
+      </ul>
+      ' 
+end 
+

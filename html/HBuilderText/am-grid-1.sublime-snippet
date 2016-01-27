@@ -1,0 +1,12 @@
+snippet 'am-grid:1' do |cmd| 
+    cmd.trigger = 'am-grid:1' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-g">
+        <div class="am-u-sm-1 am-u-md-1 am-u-lg-1">
+          ${1:内容}
+        </div>
+      </div>
+      ' 
+end 
+

@@ -1,0 +1,8 @@
+snippet 'am-badge:radius' do |cmd| 
+    cmd.trigger = 'am-badge:radius' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <span class="am-badge am-badge-radius">${1:圆角小徽章}</span>
+      ' 
+end 
+

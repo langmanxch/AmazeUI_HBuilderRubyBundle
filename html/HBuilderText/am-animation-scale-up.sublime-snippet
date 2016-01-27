@@ -1,0 +1,8 @@
+snippet 'am-animation:scale-up' do |cmd| 
+    cmd.trigger = 'am-animation:scale-up' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-animation-scale-up${1: am-animation-reverse}">scale-up</div>
+      ' 
+end 
+

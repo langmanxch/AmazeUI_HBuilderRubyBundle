@@ -1,0 +1,10 @@
+snippet 'am-list:static' do |cmd| 
+    cmd.trigger = 'am-list:static' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <ul class="am-list am-list-static">
+        <li><!-- 纯文字列表 -->${1:列表内容} </li>
+      </ul>
+      ' 
+end 
+

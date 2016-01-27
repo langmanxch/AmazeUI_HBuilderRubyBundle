@@ -1,0 +1,8 @@
+snippet 'am-img:radius' do |cmd| 
+    cmd.trigger = 'am-img:radius' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <img class="am-radius" alt="" src="${1:图片地址}" width="" height="" />
+      ' 
+end 
+

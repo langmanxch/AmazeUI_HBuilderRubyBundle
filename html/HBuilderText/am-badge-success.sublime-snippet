@@ -1,0 +1,8 @@
+snippet 'am-badge:success' do |cmd| 
+    cmd.trigger = 'am-badge:success' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <span class="am-badge am-badge-success">${1:小徽章}</span>
+      ' 
+end 
+

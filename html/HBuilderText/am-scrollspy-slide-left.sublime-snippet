@@ -1,0 +1,10 @@
+snippet 'am-scrollspy:slide-left' do |cmd| 
+    cmd.trigger = 'am-scrollspy:slide-left' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div data-am-scrollspy="\'{animation: \'slide-left\'${1:, delay: 3000, repeat: false}\'}">
+        ${2:内容}
+      </div>
+      ' 
+end 
+

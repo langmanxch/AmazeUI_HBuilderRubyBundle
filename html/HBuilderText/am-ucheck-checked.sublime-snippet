@@ -1,0 +1,10 @@
+snippet 'am-ucheck:checked' do |cmd| 
+    cmd.trigger = 'am-ucheck:checked' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <label class="am-checkbox">
+        <input type="${1:checkbox}" value="" data-am-ucheck checked> ${2:checked}
+      </label>
+      ' 
+end 
+

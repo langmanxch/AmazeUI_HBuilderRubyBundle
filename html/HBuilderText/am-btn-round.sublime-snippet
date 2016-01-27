@@ -1,0 +1,8 @@
+snippet 'am-btn:round' do |cmd| 
+    cmd.trigger = 'am-btn:round' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button type="button" class="am-btn am-btn-default am-round">${1:round 按钮}</button>
+      ' 
+end 
+

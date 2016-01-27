@@ -1,0 +1,9 @@
+snippet 'am-cdn:css' do |cmd| 
+    cmd.trigger = 'am-cdn:css' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <!-- Latest compiled and minified css -->
+      <link rel="stylesheet" href="//cdn.amazeui.org/amazeui/2.2.1/css/amazeui.min.css">
+      ' 
+end 
+

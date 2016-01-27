@@ -1,0 +1,13 @@
+snippet 'am-input-group:sm' do |cmd| 
+    cmd.trigger = 'am-input-group:sm' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-input-group am-input-group-sm">
+        <span class="am-input-group-label">    
+          <i class="am-icon-user"></i>    
+        </span>
+        <input type="text" class="am-form-field" placeholder="${1:Username}">
+      </div>
+      ' 
+end 
+

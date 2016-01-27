@@ -1,0 +1,11 @@
+snippet 'am-nav:justify' do |cmd| 
+    cmd.trigger = 'am-nav:justify' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <ul class="am-nav am-nav-justify">
+        <li class="am-active"><a href="#">${1:active列表}</a></li>
+        <li><a href="#">${2:列表}</a></li>
+      </ul>
+      ' 
+end 
+

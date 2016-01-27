@@ -1,0 +1,10 @@
+snippet 'am-list' do |cmd| 
+    cmd.trigger = 'am-list' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <ul class="am-list">
+        <li><a href="#">${1:列表内容}</a></li>
+      </ul>
+      ' 
+end 
+

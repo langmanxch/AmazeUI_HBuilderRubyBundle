@@ -1,0 +1,8 @@
+snippet 'am-animation' do |cmd| 
+    cmd.trigger = 'am-animation' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="${1: am-animation-reverse}"></div>
+      ' 
+end 
+

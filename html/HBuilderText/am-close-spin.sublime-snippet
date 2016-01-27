@@ -1,0 +1,8 @@
+snippet 'am-close:spin' do |cmd| 
+    cmd.trigger = 'am-close:spin' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button type="button" class="am-closeam-close-spin">&times;</button>
+      ' 
+end 
+

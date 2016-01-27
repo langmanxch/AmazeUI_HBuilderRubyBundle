@@ -1,0 +1,12 @@
+snippet 'am-code' do |cmd| 
+    cmd.trigger = 'am-code' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <pre>
+      	<code>
+      		${1:code}
+      	</code>
+      </pre>
+      ' 
+end 
+

@@ -1,0 +1,8 @@
+snippet 'am-img:circle' do |cmd| 
+    cmd.trigger = 'am-img:circle' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <img class="am-circle" alt="" src="${1:图片地址}" width="" height="" />
+      ' 
+end 
+

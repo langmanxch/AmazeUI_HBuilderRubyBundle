@@ -1,0 +1,15 @@
+snippet 'am-scrollspy-nav' do |cmd| 
+    cmd.trigger = 'am-scrollspy-nav' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <nav class="scrollspy-nav" data-am-scrollspy-nav data-am-sticky>
+        <ul>
+          <li><a href="#${1:title}">${2:标题}</a></li>
+        </ul>
+      </nav>
+      <div id="${1:title}">
+        ${4:侦测滚动}
+      </div>
+      ' 
+end 
+

@@ -1,0 +1,11 @@
+snippet 'am-alert:warning' do |cmd| 
+    cmd.trigger = 'am-alert:warning' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-alert am-alert-warning" data-am-alert>
+        <button type="button" class="am-close">&times;</button>
+        <p>${1:内容}</p>
+      </div>
+      ' 
+end 
+

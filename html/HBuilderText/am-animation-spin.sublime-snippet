@@ -1,0 +1,8 @@
+snippet 'am-animation:spin' do |cmd| 
+    cmd.trigger = 'am-animation:spin' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-animation-spin${1: am-animation-reverse}">spin</div>
+      ' 
+end 
+

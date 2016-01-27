@@ -1,0 +1,12 @@
+snippet 'am-thumbnail' do |cmd| 
+    cmd.trigger = 'am-thumbnail' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <!-- 能结合 Grid、AVG Grid 使用 -->
+      <div class="am-thumbnail">
+        <img src="" alt=""/>
+        <h3 class="am-thumbnail-caption">${1:图片标题}</h3>
+      </div>
+      ' 
+end 
+

@@ -1,0 +1,10 @@
+snippet 'am-progress:danger' do |cmd| 
+    cmd.trigger = 'am-progress:danger' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-progress">
+        <div class="am-progress-bar am-progress-bar-danger" style="${1:width: 15%}"></div>
+      </div>
+      ' 
+end 
+

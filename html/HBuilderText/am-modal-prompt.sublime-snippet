@@ -1,0 +1,9 @@
+snippet 'am-modal:prompt' do |cmd| 
+    cmd.trigger = 'am-modal:prompt' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <!-- 触发 button -->
+      <button class="am-btn am-btn-secondary" data-am-modal="{target: \'#${1:my-id}\'}">prompt</button>
+      ' 
+end 
+

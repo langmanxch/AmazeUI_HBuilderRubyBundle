@@ -1,0 +1,8 @@
+snippet 'am-close:alt' do |cmd| 
+    cmd.trigger = 'am-close:alt' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button type="button" class="am-closeam-close-alt">&times;</button>
+      ' 
+end 
+

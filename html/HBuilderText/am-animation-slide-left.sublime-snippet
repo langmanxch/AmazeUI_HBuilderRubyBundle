@@ -1,0 +1,8 @@
+snippet 'am-animation:slide-left' do |cmd| 
+    cmd.trigger = 'am-animation:slide-left' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-animation-slide-left${1: am-animation-reverse}">slide-left</div>
+      ' 
+end 
+

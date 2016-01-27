@@ -1,0 +1,10 @@
+snippet 'am-popover' do |cmd| 
+    cmd.trigger = 'am-popover' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <button class="am-btn am-btn-success" data-am-popover="{content: \'${1:内容}\', trigger: \'hover focus\'}">
+        ${2:Popover}
+      </button>
+      ' 
+end 
+

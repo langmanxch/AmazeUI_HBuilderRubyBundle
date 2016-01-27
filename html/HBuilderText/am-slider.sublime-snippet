@@ -1,0 +1,12 @@
+snippet 'am-slider' do |cmd| 
+    cmd.trigger = 'am-slider' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div class="am-slider am-slider-default" data-am-flexslider>
+        <ul class="am-slides">
+          <li><img src="${1:图片地址}" /></li>
+        </ul>
+      </div>
+      ' 
+end 
+

@@ -1,0 +1,10 @@
+snippet 'am-scrollspy:fade' do |cmd| 
+    cmd.trigger = 'am-scrollspy:fade' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div data-am-scrollspy="\'{animation: \'fade\'${1:, delay: 3000, repeat: false}\'}">
+        ${2:内容}
+      </div>
+      ' 
+end 
+

@@ -1,0 +1,10 @@
+snippet 'am-tabs' do |cmd| 
+    cmd.trigger = 'am-tabs' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div data-am-sticky>
+        <button class="am-btn am-btn-primary am-btn-block">${1:Stick to top}</button>
+      </div>
+      ' 
+end 
+

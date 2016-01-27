@@ -1,0 +1,10 @@
+snippet 'am-scrollspy:slide-top' do |cmd| 
+    cmd.trigger = 'am-scrollspy:slide-top' 
+    cmd.needApplyReContentAssist = true 
+    cmd.expansion = '
+      <div data-am-scrollspy="\'{animation: \'slide-top\'${1:, delay: 3000, repeat: false}\'}">
+        ${2:内容}
+      </div>
+      ' 
+end 
+
